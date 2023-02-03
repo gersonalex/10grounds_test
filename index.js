@@ -52,20 +52,6 @@ function runHour(unit) {
   });
 }
 
-function showTubes() {
-  tubeUnits.forEach((unit, index) => {
-    console.log(`Grupo ${index}`);
-
-    if (unit != undefined) {
-      unit.tubes.forEach((tube) => {
-        console.log(tube);
-      });
-    }
-
-    console.log("");
-  });
-}
-
 init();
 
 (async () => {
