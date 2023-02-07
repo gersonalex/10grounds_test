@@ -24,6 +24,7 @@ const tubeUnits = [undefined, undefined, undefined, undefined];
 function init() {
   tubeUnits.forEach((unit, index) => {
     tubeUnits[index] = setTubeUnits();
+    totalCost += tubeCost * 4; // first 16 tubes
   });
 }
 
